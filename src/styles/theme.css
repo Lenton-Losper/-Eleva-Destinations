@@ -2,29 +2,38 @@
 
 :root {
   --font-size: 16px;
-  --background: #ffffff;
-  --foreground: oklch(0.145 0 0);
+  
+  /* Safari Noir Color Palette */
+  --forest-green: #0B2B26;
+  --gold: #D4AF37;
+  --burnt-orange: #E67E22;
+  --parchment: #FDFBF7;
+  --emerald-dark: #0a1f1c;
+  --emerald-light: #1a4a40;
+  
+  --background: var(--parchment);
+  --foreground: var(--forest-green);
   --card: #ffffff;
-  --card-foreground: oklch(0.145 0 0);
+  --card-foreground: var(--forest-green);
   --popover: oklch(1 0 0);
-  --popover-foreground: oklch(0.145 0 0);
-  --primary: #030213;
-  --primary-foreground: oklch(1 0 0);
-  --secondary: oklch(0.95 0.0058 264.53);
-  --secondary-foreground: #030213;
+  --popover-foreground: var(--forest-green);
+  --primary: var(--forest-green);
+  --primary-foreground: var(--parchment);
+  --secondary: var(--gold);
+  --secondary-foreground: var(--forest-green);
   --muted: #ececf0;
   --muted-foreground: #717182;
-  --accent: #e9ebef;
-  --accent-foreground: #030213;
+  --accent: var(--burnt-orange);
+  --accent-foreground: #ffffff;
   --destructive: #d4183d;
   --destructive-foreground: #ffffff;
-  --border: rgba(0, 0, 0, 0.1);
+  --border: rgba(11, 43, 38, 0.1);
   --input: transparent;
   --input-background: #f3f3f5;
   --switch-background: #cbced4;
   --font-weight-medium: 500;
   --font-weight-normal: 400;
-  --ring: oklch(0.708 0 0);
+  --ring: var(--gold);
   --chart-1: oklch(0.646 0.222 41.116);
   --chart-2: oklch(0.6 0.118 184.704);
   --chart-3: oklch(0.398 0.07 227.392);
@@ -117,6 +126,9 @@
   --color-sidebar-accent-foreground: var(--sidebar-accent-foreground);
   --color-sidebar-border: var(--sidebar-border);
   --color-sidebar-ring: var(--sidebar-ring);
+  
+  /* Eleva Destinations Custom Colors */
+  --color-forest-green: var(--forest-green);
 }
 
 @layer base {
@@ -126,6 +138,7 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Montserrat', sans-serif;
   }
 
   /**
@@ -135,6 +148,10 @@
 
   html {
     font-size: var(--font-size);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: 'Playfair Display', serif;
   }
 
   h1 {

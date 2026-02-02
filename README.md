@@ -1,7 +1,7 @@
 
-  # SaaS Landing Page Design
+  # Luxury Safari Travel Website
 
-  This is a code bundle for SaaS Landing Page Design. The original project is available at https://www.figma.com/design/bLm0FDF94nkYRctOCr3ufv/SaaS-Landing-Page-Design.
+  This is a code bundle for Luxury Safari Travel Website. The original project is available at https://www.figma.com/design/7JeWcNwWEmNOLCI5WMr6aj/Luxury-Safari-Travel-Website.
 
   ## Running the code
 
